@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Регистрация - Fudlik </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/register.css">
+</head>
+<body>
+
+
+    <header class="navbar">
+    <div class="container nav-content">
+        
+        <div class="nav-left">
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="logo"><a href="index.html">Фудлик</a></div>
+        </div>
+
+        <div class="nav-right">
+            <div class="nav-item">
+                <img src="images/cart.png" alt="">
+            </div>
+
+            <a href="register.html" class="nav-item">
+                <img src="images/profile.png" alt="">
+            </a>
+        </div>
+    </div>
+</header>
+
+<div class="overlay"></div>
+
+<aside class="sidebar">
+    <div class="sidebar-content">
+        <a href="index.html" class="sidebar-link sidebar-active">Главная страница</a>
+        <a href="restaurants.html" class="sidebar-link">Рестораны</a>
+        <a href="#" class="sidebar-link">Акции</a>
+        <a href="register.html" class="sidebar-link">Личный кабинет</a>
+        <a href="#" class="sidebar-link">Поддержка</a>
+    </div>
+</aside>
+
+<div class="container vh-100 d-flex justify-content-center align-items-center">
+    <div class="register-card text-center">
+
+        <h2 class="mb-4 register-pr">Регистрация</h2>
+
+        <form>
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="ФИО">
+            </div>
+
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Адрес электронной почты / Номер телефона">
+            </div>
+
+            <div class="mb-4">
+                <input type="password" class="form-control" placeholder="Пароль">
+            </div>
+
+            <button type="submit" class="btn btn-custom mb-2">
+                Зарегистрироваться
+            </button>
+
+            <div>
+                <a href="#" class="login-link">Войти</a>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+
+<script src="js/sidebar.js"></script>
+    
+</body>
+</html>
